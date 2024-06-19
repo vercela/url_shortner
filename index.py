@@ -22,7 +22,7 @@ def redirect_link(x):
         if 'http:' not in url_to_return and 'https:' not in url_to_return:
             url_to_return = 'http://{}'.format(url_to_return)
     except:
-        url_to_return = 'https://docs.google.com/spreadsheets/d/1SgEqDUFMDjY0J28OiYsLgA_HUNAmtj9pnt-SyPGUYGA/edit'
+        url_to_return = ''
     return redirect(url_to_return)
 
 
